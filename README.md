@@ -9,7 +9,7 @@ MYSQL
 Thymeleaf
 
 ## Front end Styling
-HTML, CSS
+HTML, CSS, Bootstrap
 
 ## Backend 
 Spring boot JAVA
