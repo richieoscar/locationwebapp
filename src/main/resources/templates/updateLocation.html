@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml" xmlns:checked="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>Update Location</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+
+
+<div class="container">
+    <div class="container bg-dark text-white text-center">
+        <h1 class="h1">Location App <span><img src="/image/locationimage.jpg" class="rounded-circle"/> </span></h1>
+        <p class="h3"> Save your favorite Locations</p>
+
+        <br/>
+    </div>
+
+    <br/>
+
+    <div class="row">
+        <div class="col-md-3 pt-2 p-5 bg-dark text-white">
+            <form class="form-group" action="updateLoc" method="post" onsubmit="validate()">
+                <div>
+                    <input type="text"  id="cityId" name="id" th:value="${location.id}" readonly/>
+
+                </div>
+                <br/>
+                <div>
+                     <input type="text"  id="code" name="code" th:value="${location.code}"/>
+                  
+                </div>
+                <br/>
+
+                <div>
+                    <input type="text" id="city" name="name" th:value="${location.name}"/>
+                </div>
+                <br/>
+                <div>
+                    Urban <input type="radio" name="type" value="Urban"  th:field="*{location.type}">
+                </div>
+
+                <div>
+                    Rural <input type="radio" name="type" value="Rural" th:field="*{location.type}">
+                </div>
+                <br/>
+                <input class="button" id="send" type="submit" value="Update Location"/>
+            </form>
+            <a th:href="@{~/displayLocations}">See All Locations</a>
+
+
+        </div>
+
+        <div class="col">
+            <h1 class="h3 text-success" th:text="${msg}"></h1>
+        </div>
+
+
+    </div>
+</div>
+
+<script src="js/validate.js"></script>
+</body>
+</html>
