@@ -8,7 +8,7 @@ MYSQL
 ## Template Engine
 Thymeleaf
 
-## Front end Styling
+## Frontend
 HTML, CSS, Bootstrap
 
 ## Backend 
