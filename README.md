@@ -23,3 +23,10 @@ Spring boot JAVA
 ![loc3](https://user-images.githubusercontent.com/71092412/138884517-92aedd3c-40c7-4567-ac92-5f634ea37c82.PNG)
 
 
+![loc4](https://user-images.githubusercontent.com/71092412/138884932-9af6aa30-a50e-4e61-b970-087be7b3a32d.PNG)
+
+![loc5](https://user-images.githubusercontent.com/71092412/138884948-6c1314ee-420b-45a3-9d82-0da947273ffb.PNG)
+
+
+
+
